@@ -1,0 +1,27 @@
+.view-mode-toggle ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .view-mode-toggle li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .list-view {
+    display: block;
+  }
+  
+  .list-view li {
+    width: 100%;
+  }
+  
